@@ -1,0 +1,67 @@
+.operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.mail-input {
+  padding: 5px 8px;
+  flex: 0.1;
+  border-color: transparent;
+  color: var(--color-gray);
+  background: var(--color-white);
+  border-radius: var(--border-radius);
+}
+.product__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 8px;
+}
+
+.product__list li {
+  height: 170px;
+  background: var(--color-gray);
+  flex: 1 1 calc(20% - 4px);
+  gap: 10px;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.product__input {
+  padding: 5px 8px;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 90%;
+  background-color: var(--color-white);
+  border-color: transparent;
+  color: var(--color-red);
+  border-radius: var(--border-radius);
+}
+.product__input:focus {
+  outline: 2px solid var(--color-red);
+}
+.product__input::placeholder {
+  opacity: 0.8;
+  color: var(--color-background);
+}
+
+.product__img {
+  border-radius: 10px;
+  width: 150px;
+  max-height: 100px;
+}

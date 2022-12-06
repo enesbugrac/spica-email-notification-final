@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.delete-button {
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+}
+.container__table {
+  width: 50% !important;
+}
+tr {
+  gap: 10px !important;
+}
+th,
+td {
+  text-align: center;
+}
